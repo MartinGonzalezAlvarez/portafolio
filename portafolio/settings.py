@@ -120,6 +120,8 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / "web" / "static",
+    # Añade aquí cualquier otra carpeta de archivos estáticos
+
 ]
 if not DEBUG:
     # Habilitar WhiteNoise para compresión y caching
