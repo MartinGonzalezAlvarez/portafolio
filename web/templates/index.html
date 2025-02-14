@@ -2,520 +2,56 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Martin Gonzalez - Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="static/img/favicon.png" rel="icon">
-  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="static/vendor/aos/aos.css" rel="stylesheet">
-  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="static/css/main.css" rel="stylesheet">
-
-<!-- {% load static %} -->
-
-<link rel="stylesheet" href="{% static 'css/main.css' %}">
-<script src="{% static 'js/script.js' %}"></script>
-
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="static/css/main.css" rel="stylesheet">
+    <title>Carta de Martin</title>
 </head>
 
-<body class="index-page">
-
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="static/img/logo2.png" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <img src="assets/img/logo.png" alt="">
-      <h1 class="sitename">Martin Gonzalez</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> Acerca de Mi</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Experiencia</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
-        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li> -->
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-    <!-- Imagen Origial  -->
-      <!-- <img src="static/img/hero-bg.jpg" alt="" data-aos="fade-in" class=""> -->
-      <img src="static/img/bg_progra.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Martin Gonzalez A.</h2>
-        <p>Soy <span class="typed" data-typed-items="Desarrollador, Product Owner, Freelancer, Scrum Master">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Acerca de Mi</h2>
-        <p>Ingeniero Informático apasionado por la tecnología y la inteligencia artificial. Comenzando en
-          el desarrollo de aplicaciones innovadoras utilizando modelos generativos como GPT-4 y
-          Gemini, así como en la implementación de metodologías ágiles como Scrum. Poseo
-          experiencia colaborando en proyectos de software y e-learning, enfocados en mejorar la
-          productividad y automatización de procesos educativos y empresariales.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="static/img/logo2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 content">
-            <h2>Desarrollador Web &amp; Product Owner</h2>
-            <p class="fst-italic py-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Cumpleaños:</strong> <span>3 May 1998</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Telefono:</strong> <span>+56 961698059</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>La Serena, Coquimbo</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>26</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Nivel:</strong> <span>Junior</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>martinluis.gonzalezalvarez@gmail.com</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
-                </ul>
-              </div>
-            </div>
-            <p class="py-3">
-              Desarrollador web especializado en tecnologías Python y frameworks modernos como Django y Reflex. Experiencia en gestión de proyectos ágiles como Product Owner y en el desarrollo de soluciones con inteligencia artificial. Comprometido con la creación de soluciones innovadoras en el ámbito educativo y empresarial.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Conjunto de habilidades técnicas y blandas desarrolladas a través de mi formación y experiencia profesional, con énfasis en desarrollo web, metodologías ágiles e inteligencia artificial.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Agile</span> <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Django</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-                <span class="skill"><span>Reflex</span> <i class="val">60%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Sql</span> <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>PostgreSQL</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resumen</h2>
-        <p>Profesional de la informática con experiencia en desarrollo web y gestión de proyectos ágiles. Mi trayectoria combina conocimientos técnicos en programación con habilidades en la implementación de soluciones de IA y e-learning, siempre enfocado en la innovación y la mejora continua.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <!-- <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div> -->
-            <h3 class="resume-title">Educacion</h3>
-            <div class="resume-item">
-              <h4>Especialización Python Full Stack</h4>
-              <h5> Julio 2024 - Febrero 2025</h5>
-              <p><em> Edutecno (Talento Digital)</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Especialización Product Owner</h4>
-              <h5>Julio 2023 - Septiembre 2023</h5>
-              <p><em> Kibernum (Talento Digital)</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Experiencia Laboral</h3>
-            <div class="resume-item">
-              <h4> Ingeniero de Software</h4>
-              <h5>MindJobs | Noviembre - Diciembre 2024</h5>
-              <ul>
-                <li>Lideré el desarrollo de un chatbot con inteligencia artificial generativa utilizando APIs de OpenAI y Gemini</li>
-                <li>Implementé Reflex para la creación y despliegue eficiente del chatbot en Python.</li>
-                <li>Enfocado principalmente en darles una introducción por las herramientas de inteligencia artificial generativa mas conocidas.</li>
-                <li>Diseñé y desarrollé 2 cursos en Moodle: “Productividad Docente con IA" e"Introducción a la IA en la Administración Universitaria"</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4> Product Owner (Práctica)</h4>
-              <h5>Empresas SB | Junio - Septiembre 2022</h5>
-              <ul>
-                <li>Recolecté y prioricé requerimientos de negocio, mejorando la comunicación entre stakeholders y equipos técnicos.</li>
-                <!-- <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Servicios</h2>
-        <p>Ofrezco servicios especializados en desarrollo web e implementación de soluciones con IA, combinando tecnologías modernas con metodologías ágiles para crear productos innovadores y eficientes.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Desarrollo Web Front End</a></h4>
-              <p class="description">Creación de interfaces web modernas y responsivas utilizando HTML, CSS y frameworks actuales, enfocadas en la experiencia del usuario y el rendimiento.</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Desarrollo Back End</a></h4>
-              <p class="description">Implementación de soluciones robustas utilizando Python, Django y bases de datos PostgreSQL, asegurando escalabilidad y mantenibilidad.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Modelos de Inteligencia Artificial</a></h4>
-              <p class="description">Integración de modelos de IA como GPT-4 y Gemini para crear soluciones innovadoras que automatizan y optimizan procesos.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Gestion Agil</a></h4>
-              <p class="description">Aplicación de metodologías ágiles y Scrum para garantizar una gestión eficiente de proyectos y la entrega continua de valor.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Automatización</a></h4>
-              <p class="description">Diseño e implementación de sistemas automatizados para optimizar procesos empresariales y educativos mediante tecnologías modernas.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">E-Learning</a></h4>
-              <p class="description">Desarrollo de soluciones educativas digitales integrando IA para mejorar la experiencia de aprendizaje y la productividad docente.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- /AQUI VA LA SECCION DE LOS TESTIMONIOS -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Direccion</h3>
-                  <p>La Serena, Coquimbo</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Telefono</h3>
-                  <p>+56 961698059</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email</h3>
-                  <p>martinluis.gonzalezalvarez.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-71.2519!3d-29.9027!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96af7719f24a9d51%3A0x3dd65e760d5a9f2e!2sLa%20Serena!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Tu Nombre</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Asunto</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Enviar Mensaje</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Tu mensaje fue enviado. Gracias!</div>
-
-                  <button type="submit">Enviar Mensaje</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
+<body>
+    <h1>❤️ ¡Feliz San Valentín! ❤️</h1>
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
-      </div>
+        <div class="envelope-wrapper ">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Karla Francisca!</strong>
+                        <p>
+                            Hoy es <strong>San Valentín</strong>, el día oficial del <em>amor</em> y la
+                            <em>amistad</em>. Por mi parte, quise prepararte algo bastante especial y distinto.
+                            Desarrollé esta web, la cual alojará mis más profundas cartas de amor dedicadas a ti.
+                            Lógicamente, no está de más decirte que te agradezco por todo el amor que me das día a día.
+                            Eres una novia increíble, y me siento muy afortunado de que mi camino se haya cruzado con el
+                            tuyo. Perdón por los malos ratos; como te dije en la mañana, estoy dispuesto a seguir
+                            creciendo una eternidad junto a ti, a pesar de todos los obstáculos que tengamos que
+                            enfrentar. Yo tambien <strong>Te amo con todo mi Corazon</strong> y trabajaré en mis errores
+                            para que nuestra relación pueda florecer y permanecer en el tiempo, como Loki. (Esta página es una demo que irá cambiando con el tiempo.)<br> Tu programador enamorado. <br> <span
+                                style="font-size: 0.9em; color: grey;">PD: Sin ti no soy nadie</span> <br>
+                            <code>"Eres lo mejor que me ha pasado en la vida."</code>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+            <div class="tap-right"></div>
+            <div class="tap-left"></div>
+        </div>
+
     </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-   <!-- Vendor JS Files -->
-   <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-   <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
-   <script src="{% static 'vendor/aos/aos.js' %}"></script>
-   <script src="{% static 'vendor/typed.js/typed.umd.js' %}"></script>
-   <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
-   <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
-   <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
-   <script src="{% static 'vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
-   <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
-   <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
- 
-   <!-- Main JS File -->
-   <script src="{% static 'js/main.js' %}"></script>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="audio-container">
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="static/img/musica3.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+    <script src="static/js/script.js"></script>
 </body>
 
-</html>    
+</html>
